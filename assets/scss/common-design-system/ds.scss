@@ -1,0 +1,16 @@
+@import "_variables";
+
+@mixin media-query-prefix($prefix: $media-names, $sizes: $media-sizes) {
+    @for $i from 1 through length($prefix) {
+        @media only screen and (min-width: #{nth($sizes, $i)}) {
+            .#{nth($prefix, $i)} {
+                @content
+            }
+        }
+    }
+}
+
+@import "_media-query-mixins.scss";
+@import "_colors.scss";
+@import "_distances.scss";
+@import "_typography.scss";

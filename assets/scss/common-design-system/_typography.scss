@@ -1,0 +1,1249 @@
+body {
+  text-rendering: optimizeLegibility; /* emphasizes in legibility over rendering speed */
+  -webkit-font-smoothing: antialiased; /* apply font anti-aliasing */
+  -moz-osx-font-smoothing: grayscale; /* optimize font rendering */
+
+  -moz-font-feature-settings: "kern" 1; /* turn on kerning, highly recomened */
+  -ms-font-feature-settings: "kern" 1; /* turn on kerning, highly recomened */
+  -o-font-feature-settings: "kern" 1; /* turn on kerning, highly recomened */
+  -webkit-font-feature-settings: "kern" 1; /* turn on kerning, highly recomened */
+  font-feature-settings: "kern" 1; /* turn on kerning, highly recomened */
+  font-kerning: normal; /* turn on kerning, highly recomened */
+
+  font-feature-settings: "liga" off; /* ligatures: on or off */
+  font-feature-settings: "dlig" off; /* discretionary-ligatures: on or off */
+  font-feature-settings: "tnum" off; /* tabular figures: on or off */
+  font-feature-settings: "onum" off; /* old-style-figures: on or off */
+  font-feature-settings: "ss01" off; /* alternate glyphs (stylistic Set): on or off */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-uppercase {
+  &#{&} {
+    text-transform: uppercase;
+  }
+}
+
+.normal-9 {
+  font-weight: $font-weight-normal;
+  font-size: 9px;
+  line-height: $leading-1_4;
+  letter-spacing: $tracking-0;
+}
+
+.bold-9 {
+  font-weight: $font-weight-bold;
+  font-size: 9px;
+  line-height: $leading-1_4;
+  letter-spacing: $tracking-0;
+}
+
+.normal-10 {
+  font-weight: $font-weight-normal;
+  font-size: 10px;
+  line-height: $leading-1_4;
+  letter-spacing: $tracking-0;
+}
+
+.bold-10 {
+  font-weight: $font-weight-bold;
+  font-size: 10px;
+  line-height: $leading-1_4;
+  letter-spacing: $tracking-0;
+}
+
+.bold-10-2 {
+  font-weight: $font-weight-bold;
+  font-size: 10px;
+  line-height: $leading-1_4;
+  letter-spacing: $tracking-0_5;
+  text-transform: uppercase;
+}
+
+.normal-12 {
+  font-weight: $font-weight-normal;
+  font-size: 12px;
+  line-height: $leading-1_4;
+  letter-spacing: $tracking-0;
+}
+
+.normal-12-2 {
+  font-weight: $font-weight-normal;
+  font-size: 12px;
+  line-height: $leading-1_4;
+  letter-spacing: $tracking-0;
+  text-transform: uppercase;
+}
+
+.bold-12 {
+  font-weight: $font-weight-bold;
+  font-size: 12px;
+  line-height: $leading-1_4;
+  letter-spacing: $tracking-0;
+}
+
+.bold-12-2 {
+  font-weight: $font-weight-bold;
+  font-size: 12px;
+  line-height: $leading-1_3;
+  letter-spacing: $tracking-0_5;
+  text-transform: uppercase;
+}
+
+.normal-14 {
+  font-weight: $font-weight-normal;
+  font-size: 14px;
+  line-height: $leading-1_4;
+  letter-spacing: $tracking-0;
+}
+
+.bold-14 {
+  font-weight: $font-weight-bold;
+  font-size: 14px;
+  line-height: $leading-1_4;
+  letter-spacing: $tracking-0;
+}
+
+.light-16 {
+  font-weight: $font-weight-light;
+  font-size: 16px;
+  line-height: $leading-1_4;
+  letter-spacing: $tracking--0_2;
+}
+
+.normal-16 {
+  font-weight: $font-weight-normal;
+  font-size: 16px;
+  line-height: $leading-1_4;
+  letter-spacing: $tracking--0_2;
+}
+
+.bold-16 {
+  font-weight: $font-weight-bold;
+  font-size: 16px;
+  line-height: $leading-1_25;
+  letter-spacing: $tracking--0_2;
+}
+
+.normal-16-2 {
+  font-weight: $font-weight-normal;
+  font-size: 16px;
+  line-height: $leading-1_2;
+  letter-spacing: $tracking-1_5;
+  text-transform: uppercase;
+}
+
+.normal-20 {
+  font-weight: $font-weight-normal;
+  font-size: 20px;
+  line-height: $leading-1_3;
+  letter-spacing: $tracking--0_3;
+}
+
+.bold-20 {
+  font-weight: $font-weight-bold;
+  font-size: 20px;
+  line-height: $leading-1_3;
+  letter-spacing: $tracking--0_3;
+}
+
+.light-24 {
+  font-weight: $font-weight-light;
+  font-size: 24px;
+  line-height: $leading-1_4;
+  letter-spacing: $tracking--0_3;
+}
+
+.normal-24 {
+  font-weight: $font-weight-normal;
+  font-size: 24px;
+  line-height: $leading-1_2;
+  letter-spacing: $tracking--0_3;
+}
+
+.bold-24 {
+  font-weight: $font-weight-bold;
+  font-size: 24px;
+  line-height: $leading-1_2;
+  letter-spacing: $tracking--0_3;
+}
+
+.normal-28 {
+  font-weight: $font-weight-normal;
+  font-size: 28px;
+  line-height: $leading-1_2;
+  letter-spacing: $tracking--0_5;
+}
+
+.bold-28 {
+  font-weight: $font-weight-bold;
+  font-size: 28px;
+  line-height: $leading-1_2;
+  letter-spacing: $tracking--0_5;
+}
+
+.bold-32 {
+  font-weight: $font-weight-bold;
+  font-size: 32px;
+  line-height: $leading-1_2;
+  letter-spacing: $tracking--0_5;
+}
+
+.bold-46 {
+  font-weight: $font-weight-bold;
+  font-size: 46px;
+  line-height: $leading-1_2;
+  letter-spacing: $tracking--1_5;
+}
+
+.bold-54 {
+  font-weight: $font-weight-bold;
+  font-size: 54px;
+  line-height: $leading-1_2;
+  letter-spacing: $tracking--0_5;
+}
+
+.bold-72 {
+  font-weight: $font-weight-bold;
+  font-size: 72px;
+  line-height: $leading-1_1;
+  letter-spacing: $tracking--1;
+}
+
+.bold-88 {
+  font-weight: $font-weight-bold;
+  font-size: 88px;
+  line-height: $leading-1_1;
+  letter-spacing: $tracking--3_5;
+}
+
+//mobile 375px
+@include mobile-middle {
+  .sm\:normal-9 {
+    font-weight: $font-weight-normal;
+    font-size: 9px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .sm\:bold-9 {
+    font-weight: $font-weight-bold;
+    font-size: 9px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .sm\:normal-10 {
+    font-weight: $font-weight-normal;
+    font-size: 10px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .sm\:bold-10 {
+    font-weight: $font-weight-bold;
+    font-size: 10px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .sm\:bold-10-2 {
+    font-weight: $font-weight-bold;
+    font-size: 10px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0_5;
+      text-transform: uppercase;
+    }
+
+  .sm\:normal-12 {
+    font-weight: $font-weight-normal;
+    font-size: 12px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .sm\:normal-12-2 {
+    font-weight: $font-weight-normal;
+    font-size: 12px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+      text-transform: uppercase;
+    }
+
+  .sm\:bold-12 {
+    font-weight: $font-weight-bold;
+    font-size: 12px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .sm\:bold-12-2 {
+    font-weight: $font-weight-bold;
+    font-size: 12px;
+    line-height: $leading-1_3;
+    letter-spacing: $tracking-0_5;
+      text-transform: uppercase;
+    }
+
+  .sm\:normal-14 {
+    font-weight: $font-weight-normal;
+    font-size: 14px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+  .sm\:bold-14 {
+    font-weight: $font-weight-bold;
+    font-size: 14px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .sm\:light-16 {
+    font-weight: $font-weight-light;
+    font-size: 16px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking--0_2;
+  }
+
+  .sm\:normal-16 {
+    font-weight: $font-weight-normal;
+    font-size: 16px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking--0_2;
+  }
+
+  .sm\:bold-16 {
+    font-weight: $font-weight-bold;
+    font-size: 16px;
+    line-height: $leading-1_25;
+    letter-spacing: $tracking--0_2;
+  }
+
+  .sm\:normal-16-2 {
+    font-weight: $font-weight-normal;
+    font-size: 16px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking-1_5;
+      text-transform: uppercase;
+    }
+
+  .sm\:normal-20 {
+    font-weight: $font-weight-normal;
+    font-size: 20px;
+    line-height: $leading-1_3;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .sm\:bold-20 {
+    font-weight: $font-weight-bold;
+    font-size: 20px;
+    line-height: $leading-1_3;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .sm\:light-24 {
+    font-weight: $font-weight-light;
+    font-size: 24px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .sm\:normal-24 {
+    font-weight: $font-weight-normal;
+    font-size: 24px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .sm\:bold-24 {
+    font-weight: $font-weight-bold;
+    font-size: 24px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .sm\:normal-28 {
+    font-weight: $font-weight-normal;
+    font-size: 28px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_5;
+  }
+
+  .sm\:bold-28 {
+    font-weight: $font-weight-bold;
+    font-size: 28px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_5;
+  }
+
+  .sm\:bold-32 {
+    font-weight: $font-weight-bold;
+    font-size: 32px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_5;
+  }
+
+  .sm\:bold-46 {
+    font-weight: $font-weight-bold;
+    font-size: 46px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--1_5;
+  }
+
+  .sm\:bold-54 {
+    font-weight: $font-weight-bold;
+    font-size: 54px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_5;
+  }
+
+  .sm\:bold-72 {
+    font-weight: $font-weight-bold;
+    font-size: 72px;
+    line-height: $leading-1_1;
+    letter-spacing: $tracking--1;
+  }
+
+  .sm\:bold-88 {
+    font-weight: $font-weight-bold;
+    font-size: 88px;
+    line-height: $leading-1_1;
+    letter-spacing: $tracking--3_5;
+  }
+}
+
+//tablet 768px
+@include tablet-min {
+  .md\:text-center {
+      text-align: center;
+  }
+
+  .md\:text-left {
+      text-align: left;
+  }
+
+  .md\:text-right {
+      text-align: right;
+  }
+
+  .md\:normal-9 {
+      font-weight: $font-weight-normal;
+      font-size: 9px;
+      line-height: $leading-1_4;
+      letter-spacing: $tracking-0;
+  }
+
+  .md\:bold-9 {
+    font-weight: $font-weight-bold;
+    font-size: 9px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .md\:normal-10 {
+    font-weight: $font-weight-normal;
+    font-size: 10px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .md\:bold-10 {
+    font-weight: $font-weight-bold;
+    font-size: 10px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .md\:bold-10-2 {
+    font-weight: $font-weight-bold;
+    font-size: 10px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0_5;
+    text-transform: uppercase;
+  }
+
+  .md\:normal-12 {
+    font-weight: $font-weight-normal;
+    font-size: 12px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .md\:normal-12-2 {
+    font-weight: $font-weight-normal;
+    font-size: 12px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+    text-transform: uppercase;
+  }
+
+  .md\:bold-12 {
+    font-weight: $font-weight-bold;
+    font-size: 12px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .md\:bold-12-2 {
+    font-weight: $font-weight-bold;
+    font-size: 12px;
+    line-height: $leading-1_3;
+    letter-spacing: $tracking-0_5;
+    text-transform: uppercase;
+  }
+
+  .md\:normal-14 {
+    font-weight: $font-weight-normal;
+    font-size: 14px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+  .md\:bold-14 {
+    font-weight: $font-weight-bold;
+    font-size: 14px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .md\:light-16 {
+    font-weight: $font-weight-light;
+    font-size: 16px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking--0_2;
+  }
+
+  .md\:normal-16 {
+    font-weight: $font-weight-normal;
+    font-size: 16px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking--0_2;
+  }
+
+  .md\:bold-16 {
+    font-weight: $font-weight-bold;
+    font-size: 16px;
+    line-height: $leading-1_25;
+    letter-spacing: $tracking--0_2;
+  }
+
+  .md\:normal-16-2 {
+    font-weight: $font-weight-normal;
+    font-size: 16px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking-1_5;
+    text-transform: uppercase;
+  }
+
+  .md\:normal-20 {
+    font-weight: $font-weight-normal;
+    font-size: 20px;
+    line-height: $leading-1_3;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .md\:bold-20 {
+    font-weight: $font-weight-bold;
+    font-size: 20px;
+    line-height: $leading-1_3;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .md\:light-24 {
+    font-weight: $font-weight-light;
+    font-size: 24px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .md\:normal-24 {
+    font-weight: $font-weight-normal;
+    font-size: 24px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .md\:bold-24 {
+    font-weight: $font-weight-bold;
+    font-size: 24px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .md\:normal-28 {
+    font-weight: $font-weight-normal;
+    font-size: 28px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_5;
+  }
+
+  .md\:bold-28 {
+    font-weight: $font-weight-bold;
+    font-size: 28px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_5;
+  }
+
+  .md\:bold-32 {
+    font-weight: $font-weight-bold;
+    font-size: 32px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_5;
+  }
+
+  .md\:bold-46 {
+    font-weight: $font-weight-bold;
+    font-size: 46px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--1_5;
+  }
+
+  .md\:bold-54 {
+    font-weight: $font-weight-bold;
+    font-size: 54px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_5;
+  }
+
+  .md\:bold-72 {
+    font-weight: $font-weight-bold;
+    font-size: 72px;
+    line-height: $leading-1_1;
+    letter-spacing: $tracking--1;
+  }
+
+  .md\:bold-88 {
+    font-weight: $font-weight-bold;
+    font-size: 88px;
+    line-height: $leading-1_1;
+    letter-spacing: $tracking--3_5;
+  }
+}
+
+//desktop 1024px
+@include desktop-min {
+  .lg\:text-center {
+      text-align: center;
+  }
+  .lg\:text-left {
+      text-align: left;
+  }
+  .lg\:text-right {
+      text-align: right;
+  }
+  .lg\:normal-9 {
+      font-weight: $font-weight-normal;
+      font-size: 9px;
+      line-height: $leading-1_4;
+      letter-spacing: $tracking-0;
+  }
+
+  .lg\:bold-9 {
+    font-weight: $font-weight-bold;
+    font-size: 9px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .lg\:normal-10 {
+    font-weight: $font-weight-normal;
+    font-size: 10px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .lg\:bold-10 {
+    font-weight: $font-weight-bold;
+    font-size: 10px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .lg\:bold-10-2 {
+    font-weight: $font-weight-bold;
+    font-size: 10px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0_5;
+    text-transform: uppercase;
+  }
+
+  .lg\:normal-12 {
+    font-weight: $font-weight-normal;
+    font-size: 12px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .lg\:normal-12-2 {
+    font-weight: $font-weight-normal;
+    font-size: 12px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+    text-transform: uppercase;
+  }
+
+  .lg\:bold-12 {
+    font-weight: $font-weight-bold;
+    font-size: 12px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .lg\:bold-12-2 {
+    font-weight: $font-weight-bold;
+    font-size: 12px;
+    line-height: $leading-1_3;
+    letter-spacing: $tracking-0_5;
+    text-transform: uppercase;
+  }
+
+  .lg\:normal-14 {
+    font-weight: $font-weight-normal;
+    font-size: 14px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .lg\:bold-14 {
+    font-weight: $font-weight-bold;
+    font-size: 14px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .lg\:light-16 {
+    font-weight: $font-weight-light;
+    font-size: 16px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking--0_2;
+  }
+
+  .lg\:normal-16 {
+    font-weight: $font-weight-normal;
+    font-size: 16px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking--0_2;
+  }
+
+  .lg\:bold-16 {
+    font-weight: $font-weight-bold;
+    font-size: 16px;
+    line-height: $leading-1_25;
+    letter-spacing: $tracking--0_2;
+  }
+
+  .lg\:normal-16-2 {
+    font-weight: $font-weight-normal;
+    font-size: 16px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking-1_5;
+    text-transform: uppercase;
+  }
+
+  .lg\:normal-20 {
+    font-weight: $font-weight-normal;
+    font-size: 20px;
+    line-height: $leading-1_3;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .lg\:bold-20 {
+    font-weight: $font-weight-bold;
+    font-size: 20px;
+    line-height: $leading-1_3;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .lg\:light-24 {
+    font-weight: $font-weight-light;
+    font-size: 24px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .lg\:normal-24 {
+    font-weight: $font-weight-normal;
+    font-size: 24px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .lg\:bold-24 {
+    font-weight: $font-weight-bold;
+    font-size: 24px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .lg\:normal-28 {
+    font-weight: $font-weight-normal;
+    font-size: 28px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_5;
+  }
+
+  .lg\:bold-28 {
+    font-weight: $font-weight-bold;
+    font-size: 28px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_5;
+  }
+
+  .lg\:bold-32 {
+    font-weight: $font-weight-bold;
+    font-size: 32px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_5;
+  }
+
+  .lg\:bold-46 {
+    font-weight: $font-weight-bold;
+    font-size: 46px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--1_5;
+  }
+
+  .lg\:bold-54 {
+    font-weight: $font-weight-bold;
+    font-size: 54px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_5;
+  }
+
+  .lg\:bold-72 {
+    font-weight: $font-weight-bold;
+    font-size: 72px;
+    line-height: $leading-1_1;
+    letter-spacing: $tracking--1;
+  }
+
+  .lg\:bold-88 {
+    font-weight: $font-weight-bold;
+    font-size: 88px;
+    line-height: $leading-1_1;
+    letter-spacing: $tracking--3_5;
+  }
+}
+
+//large desktop 1440px
+@include desktop-air {
+  .xl\:text-center {
+      text-align: center;
+  }
+  .xl\:text-left {
+      text-align: left;
+  }
+  .xl\:text-right {
+      text-align: right;
+  }
+  .xl\:normal-9 {
+      font-weight: $font-weight-normal;
+      font-size: 9px;
+      line-height: $leading-1_4;
+      letter-spacing: $tracking-0;
+  }
+
+  .xl\:bold-9 {
+    font-weight: $font-weight-bold;
+    font-size: 9px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .xl\:normal-10 {
+    font-weight: $font-weight-normal;
+    font-size: 10px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .xl\:bold-10 {
+    font-weight: $font-weight-bold;
+    font-size: 10px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .xl\:bold-10-2 {
+    font-weight: $font-weight-bold;
+    font-size: 10px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0_5;
+    text-transform: uppercase;
+  }
+
+  .xl\:normal-12 {
+    font-weight: $font-weight-normal;
+    font-size: 12px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .xl\:normal-12-2 {
+    font-weight: $font-weight-normal;
+    font-size: 12px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+    text-transform: uppercase;
+  }
+
+  .xl\:bold-12 {
+    font-weight: $font-weight-bold;
+    font-size: 12px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .xl\:bold-12-2 {
+    font-weight: $font-weight-bold;
+    font-size: 12px;
+    line-height: $leading-1_3;
+    letter-spacing: $tracking-0_5;
+    text-transform: uppercase;
+  }
+
+  .xl\:normal-14 {
+    font-weight: $font-weight-normal;
+    font-size: 14px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .xl\:bold-14 {
+    font-weight: $font-weight-bold;
+    font-size: 14px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .xl\:light-16 {
+    font-weight: $font-weight-light;
+    font-size: 16px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking--0_2;
+  }
+
+  .xl\:normal-16 {
+    font-weight: $font-weight-normal;
+    font-size: 16px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking--0_2;
+  }
+
+  .xl\:bold-16 {
+    font-weight: $font-weight-bold;
+    font-size: 16px;
+    line-height: $leading-1_25;
+    letter-spacing: $tracking--0_2;
+  }
+
+  .xl\:normal-16-2 {
+    font-weight: $font-weight-normal;
+    font-size: 16px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking-1_5;
+    text-transform: uppercase;
+  }
+
+  .xl\:normal-20 {
+    font-weight: $font-weight-normal;
+    font-size: 20px;
+    line-height: $leading-1_3;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .xl\:bold-20 {
+    font-weight: $font-weight-bold;
+    font-size: 20px;
+    line-height: $leading-1_3;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .xl\:light-24 {
+    font-weight: $font-weight-light;
+    font-size: 24px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .xl\:normal-24 {
+    font-weight: $font-weight-normal;
+    font-size: 24px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .xl\:bold-24 {
+    font-weight: $font-weight-bold;
+    font-size: 24px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .xl\:normal-28 {
+    font-weight: $font-weight-normal;
+    font-size: 28px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_5;
+  }
+
+  .xl\:bold-28 {
+    font-weight: $font-weight-bold;
+    font-size: 28px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_5;
+  }
+
+  .xl\:bold-32 {
+    font-weight: $font-weight-bold;
+    font-size: 32px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_5;
+  }
+
+  .xl\:bold-46 {
+    font-weight: $font-weight-bold;
+    font-size: 46px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--1_5;
+  }
+
+  .xl\:bold-54 {
+    font-weight: $font-weight-bold;
+    font-size: 54px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_5;
+  }
+
+  .xl\:bold-72 {
+    font-weight: $font-weight-bold;
+    font-size: 72px;
+    line-height: $leading-1_1;
+    letter-spacing: $tracking--1;
+  }
+
+  .xl\:bold-88 {
+    font-weight: $font-weight-bold;
+    font-size: 88px;
+    line-height: $leading-1_1;
+    letter-spacing: $tracking--3_5;
+  }
+}
+
+// extra large desktop 1920px
+@include desktop-xl2 {
+  .xl2\:text-center {
+      text-align: center;
+  }
+
+  .xl2\:text-left {
+      text-align: left;
+  }
+
+  .xl2\:text-right {
+      text-align: right;
+  }
+
+  .xl2\:normal-9 {
+      font-weight: $font-weight-normal;
+      font-size: 9px;
+      line-height: $leading-1_4;
+      letter-spacing: $tracking-0;
+  }
+
+  .xl2\:bold-9 {
+    font-weight: $font-weight-bold;
+    font-size: 9px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .xl2\:normal-10 {
+    font-weight: $font-weight-normal;
+    font-size: 10px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .xl2\:bold-10 {
+    font-weight: $font-weight-bold;
+    font-size: 10px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .xl2\:bold-10-2 {
+    font-weight: $font-weight-bold;
+    font-size: 10px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0_5;
+    text-transform: uppercase;
+  }
+
+  .xl2\:normal-12 {
+    font-weight: $font-weight-normal;
+    font-size: 12px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .xl2\:normal-12-2 {
+    font-weight: $font-weight-normal;
+    font-size: 12px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+    text-transform: uppercase;
+  }
+
+  .xl2\:bold-12 {
+    font-weight: $font-weight-bold;
+    font-size: 12px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .xl2\:bold-12-2 {
+    font-weight: $font-weight-bold;
+    font-size: 12px;
+    line-height: $leading-1_3;
+    letter-spacing: $tracking-0_5;
+    text-transform: uppercase;
+  }
+
+  .xl2\:normal-14 {
+    font-weight: $font-weight-normal;
+    font-size: 14px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .xl2\:bold-14 {
+    font-weight: $font-weight-bold;
+    font-size: 14px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking-0;
+  }
+
+  .xl2\:light-16 {
+    font-weight: $font-weight-light;
+    font-size: 16px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking--0_2;
+  }
+
+  .xl2\:normal-16 {
+    font-weight: $font-weight-normal;
+    font-size: 16px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking--0_2;
+  }
+
+  .xl2\:bold-16 {
+    font-weight: $font-weight-bold;
+    font-size: 16px;
+    line-height: $leading-1_25;
+    letter-spacing: $tracking--0_2;
+  }
+
+  .xl2\:normal-16-2 {
+    font-weight: $font-weight-normal;
+    font-size: 16px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking-1_5;
+    text-transform: uppercase;
+  }
+
+  .xl2\:normal-20 {
+    font-weight: $font-weight-normal;
+    font-size: 20px;
+    line-height: $leading-1_3;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .xl2\:bold-20 {
+    font-weight: $font-weight-bold;
+    font-size: 20px;
+    line-height: $leading-1_3;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .xl2\:light-24 {
+    font-weight: $font-weight-light;
+    font-size: 24px;
+    line-height: $leading-1_4;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .xl2\:normal-24 {
+    font-weight: $font-weight-normal;
+    font-size: 24px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .xl2\:bold-24 {
+    font-weight: $font-weight-bold;
+    font-size: 24px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_3;
+  }
+
+  .xl2\:normal-28 {
+    font-weight: $font-weight-normal;
+    font-size: 28px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_5;
+  }
+
+  .xl2\:bold-28 {
+    font-weight: $font-weight-bold;
+    font-size: 28px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_5;
+  }
+
+  .xl2\:bold-32 {
+    font-weight: $font-weight-bold;
+    font-size: 32px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_5;
+  }
+
+  .xl2\:bold-46 {
+    font-weight: $font-weight-bold;
+    font-size: 46px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--1_5;
+  }
+
+  .xl2\:bold-54 {
+    font-weight: $font-weight-bold;
+    font-size: 54px;
+    line-height: $leading-1_2;
+    letter-spacing: $tracking--0_5;
+  }
+
+  .xl2\:bold-72 {
+    font-weight: $font-weight-bold;
+    font-size: 72px;
+    line-height: $leading-1_1;
+    letter-spacing: $tracking--1;
+  }
+
+  .xl2\:bold-88 {
+    font-weight: $font-weight-bold;
+    font-size: 88px;
+    line-height: $leading-1_1;
+    letter-spacing: $tracking--3_5;
+  }
+}

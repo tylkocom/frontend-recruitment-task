@@ -1,0 +1,37 @@
+@for $i from 1 through length($ds-colors-names) {
+    .text-#{nth($ds-colors-names, $i)} {
+        &#{&} {
+            color: nth($ds-colors, $i);
+        }
+    }
+    .bg-#{nth($ds-colors-names, $i)} {
+        &#{&} {
+            background-color: nth($ds-colors, $i);
+        }
+    }
+    .border-#{nth($ds-colors-names, $i)} {
+        &#{&} {
+            border-color: nth($ds-colors, $i);
+        }
+    }
+}
+
+@include media-query-prefix {
+    @for $i from 1 through length($ds-colors-names) {
+        &\:text-#{nth($ds-colors-names, $i)} {
+            &#{&} {
+                color: nth($ds-colors, $i);
+            }
+        }
+        &\:bg-#{nth($ds-colors-names, $i)} {
+            &#{&} {
+                background-color: nth($ds-colors, $i);
+            }
+        }
+        &\:border-#{nth($ds-colors-names, $i)} {
+            &#{&} {
+                border-color: nth($ds-colors, $i);
+            }
+        }
+    }
+}

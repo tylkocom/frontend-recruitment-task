@@ -1,0 +1,29 @@
+@mixin mobile-middle {
+  @media only screen and (min-width: #{$size-mobile-middle}) {
+    @content;
+  }
+}
+
+@mixin tablet-min {
+  @media only screen and (min-width: #{$size-tablet-min}) {
+    @content;
+  }
+}
+
+@mixin desktop-min {
+  @media only screen and (min-width: #{$size-desktop-min}) {
+    @content;
+  }
+}
+
+@mixin desktop-air {
+  @media only screen and (min-width: #{$size-desktop-air}) {
+    @content;
+  }
+}
+
+@mixin desktop-xl2 {
+  @media only screen and (min-width: #{$size-desktop-xl2}) {
+    @content;
+  }
+}

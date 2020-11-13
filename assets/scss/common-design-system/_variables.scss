@@ -1,0 +1,109 @@
+// <---------------- MEDIA QUERY ---------------->
+$size-mobile-middle:    375px; // sm
+$size-tablet-min:       768px; // md
+$size-desktop-min:      1024px; // lg
+$size-desktop-air:      1440px; // xl
+$size-desktop-xl2:      1920px; // xl2
+
+$font-messina: 'MessinaSansWeb', Helvetica, Arial, sans-serif;
+$media-names: 'sm', 'md', 'lg', 'xl', 'xl2';
+$media-sizes: $size-mobile-middle, $size-tablet-min, $size-desktop-min,  $size-desktop-air, $size-desktop-xl2;
+// <---------------- END MEDIA QUERY ---------------->
+
+// <---------------- COLORS ---------------->
+$ds-confirmation: #3CBE5A;
+$ds-warning: #FFC107;
+$ds-error: #FF0037;
+$ds-orange: #FF3C00;
+$ds-white: #FFFFFF;
+$ds-black: #000000;
+$ds-brown: #433E3A;
+
+$ds-offblack-600: #484444;
+$ds-offblack-700: #2F2F2F;
+$ds-offblack-800: #1F1D1D;
+$ds-offblack-900: #1A1818;
+
+$ds-grey-600: #EDF0F0;
+$ds-grey-700: #D7DADB;
+$ds-grey-800: #CAD0D0;
+$ds-grey-900: #7C7D81;
+
+$ds-offwhite-600: #F9F9F9;
+$ds-offwhite-700: #F5F5F5;
+$ds-offwhite-800: #FEF6F6;
+$ds-offwhite-900: #F1EAEA;
+
+$ds-orange-600: #FFEBE5;
+$ds-orange-700: #FFD8CD;
+$ds-orange-800: #FBC3B2;
+$ds-orange-900: #FF9B7D;
+
+$ds-colors-names:
+  'transparent', 'confirmation', 'warning', 'error', 'orange', 'white', 'black', 'brown',
+  'offblack-600', 'offblack-700','offblack-800','offblack-900',
+  'grey-600', 'grey-700', 'grey-800', 'grey-900',
+  'offwhite-600', 'offwhite-700','offwhite-800','offwhite-900',
+  'orange-600', 'orange-700', 'orange-800', 'orange-900';
+
+$ds-colors:
+  transparent, $ds-confirmation, $ds-warning, $ds-error, $ds-orange, $ds-white, $ds-black, $ds-brown,
+  $ds-offblack-600, $ds-offblack-700, $ds-offblack-800, $ds-offblack-900,
+  $ds-grey-600, $ds-grey-700, $ds-grey-800, $ds-grey-900,
+  $ds-offwhite-600, $ds-offwhite-700, $ds-offwhite-800, $ds-offwhite-900,
+  $ds-orange-600, $ds-orange-700, $ds-orange-800, $ds-orange-900;
+
+// <---------------- END COLORS ---------------->
+
+// <---------------- DISTANCES ---------------->
+
+$size-values: 0, 4, 8, 12, 16, 24, 32, 40, 48, 64, 80, 96, 128;
+
+// <---------------- END DISTANCES ---------------->
+
+
+// <---------------- TYPOGRAPHY ---------------->
+$font-messina: 'MessinaSansWeb';
+$font-sizes: 9, 10, 12, 14, 16, 20, 24, 28, 32, 46, 54, 72, 88;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+
+$font-weight-name: 'light', 'normal', 'bold';
+$font-weight-value: $font-weight-light, $font-weight-normal, $font-weight-bold;
+
+$tracking--3_5: -3.5px;
+$tracking--1_5: -1.5px;
+$tracking--1: -1px;
+$tracking--0_5: -0.5px;
+$tracking--0_3: -0.3px;
+$tracking--0_2: -0.2px;
+$tracking-0: 0;
+$tracking-0_5: 0.5px;
+$tracking-1_5: 1.5px;
+
+$tracking-names: '--3_5', '--1_5', '--1', '--0_5', '--0_3', '--0_2', '-0', '-0_5', '-1_5';
+$tracking-values: $tracking--3_5, $tracking--1_5, $tracking--1, $tracking--0_5, $tracking--0_3, $tracking--0_2, $tracking-0, $tracking-0_5, $tracking-1_5;
+
+$leading-1: 1;
+$leading-1_1: 1.1;
+$leading-1_2: 1.2;
+$leading-1_25: 1.25;
+$leading-1_3: 1.3;
+$leading-1_4: 1.4;
+$leading-1_5: 1.5;
+
+$leading-names: '1', '1_1', '1_2', '1_25', '1_3', '1_4', '1_5';
+$leading-values: $leading-1, $leading-1_1, $leading-1_2, $leading-1_25, $leading-1_3, $leading-1_4, $leading-1_5;
+
+// <----------------  END TYPOGRAPHY ---------------->
+
+$border-radius-s: 4px;
+$border-radius: 6px;
+$border-radius-xl: 12px;
+
+$basic-transition: 0.3s ease-in-out;
+
+$short-transition: 0.2s ease-in-out;
