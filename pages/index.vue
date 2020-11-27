@@ -1,26 +1,30 @@
 <template>
-  <div class="container">
+  <div class="welcome-page">
     <div>
-      <Logo />
-      <h1 class="title">
-        frontend-recruitment-task
+      <img class="welcome-page__logo"
+           src="~/assets/images/tylko-logo.svg"
+           svg-inline
+      >
+
+      <h1 class="bold-32 md:bold-72 text-white my-40">
+        Shelves that fit every home
       </h1>
-      <div class="links">
+      <div class="row">
         <a
-          href="https://nuxtjs.org/"
+          href="https://docs.google.com/document/d/19DMdkIsiqxsZTsZ5RxQNtPI1XpWCdAabrqdEbm4vl-g/edit"
           target="_blank"
           rel="noopener noreferrer"
-          class="button--green"
+          class="welcome-page__button"
         >
-          Documentation
+          Design system
         </a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="https://www.figma.com/file/4I9prCmnLdCNHaClurysFg/Zadanie-rekrutacyjne-Tylko?node-id=0%3A1"
           target="_blank"
           rel="noopener noreferrer"
-          class="button--grey"
+          class="welcome-page__button welcome-page__button--secondary"
         >
-          GitHub
+          Figma
         </a>
       </div>
     </div>
@@ -31,43 +35,44 @@
 export default {}
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
+<style lang="scss" scoped>
+$transition: 0.2s ease-in-out;
+
+.welcome-page {
+  background: url("~assets/images/welcome-hero_s.jpg") center center no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  min-height: 100vh;
+
+  @include tablet-min {
+    background-image: url("~assets/images/welcome-hero_l.jpg");
+  }
+
+  @include desktop-xl2 {
+    background-image: url("~assets/images/welcome-hero_xl.jpg");
+  }
+
+  &__logo {
+    height: 60px;
+  }
+
+  &__button {
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color $transition, border-color $transition;
+    text-decoration: none;
+
+    &:hover, &:focus, &:active {
+        text-decoration: none;
+        background-color: $ds-orange-900;
+        border: 1px solid $ds-orange-900;
+        outline: none;
+    }
+  }
 }
 
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>

@@ -1,18 +1,19 @@
 # frontend-recruitment-task
 
 [Pod tym linkiem](https://www.figma.com/file/4I9prCmnLdCNHaClurysFg/Zadanie-rekrutacyjne-Tylko?node-id=0%3A1) znajdziesz prostą sekcję z karuzelą do zakodowania. 
-Na początku chcielibyśmy, abyś zrobił forka naszego repozytorium i ustawił go jako prywatne - to bardzo dla nas ważne. Jeśli możesz to wrzuć nam podgląd strony na github pages, heroku lub cokolwiek innego - chętnie przeklikamy co stworzyłaś/eś.
- 
-Sekcja składa się z kafelek z naszymi meblami, karuzeli i prostych filtrów. 
+
+Na początku chcielibyśmy, abyś zrobił/a forka naszego repozytorium i ustawił go jako prywatne - to bardzo dla nas ważne. Jeśli możesz to wrzuć nam podgląd strony na github pages, heroku lub cokolwiek innego - chętnie przeklikamy co stworzyłaś/eś. 
+Sekcja składa się z kafelków z naszymi meblami, karuzeli i prostych filtrów. 
 
 
-Wszystko co jest potrzebne do wyświetlenia kafelek znajdziesz pobierając dane z przygotowanego przez nas api. Kodując korzystaj z design systemu, który znajdziesz tutaj. Zależy nam na responsywnej stronie zgodnej z naszym ds, część naszej sprzedaży odbywa się przy pomocy IE11, dlatego ważne jest dla nas, aby o tym pamiętać. 
+Wszystko co jest potrzebne do wyświetlenia kafelek znajdziesz pobierając dane z przygotowanego przez nas api. Kodując korzystaj z naszego design systemu. Zależy nam na responsywnej stronie - część naszej sprzedaży odbywa się przy pomocy IE11, dlatego ważne jest dla nas, aby o tym pamiętać.
 
-W tej chwili korzystamy z [tej karuzeli](https://flickity.metafizzy.co/options.html), ale nie możesz wybrać cokolwiek innego. Chętnie też zobaczymy axiosa, ale tutaj też zostawiamy dobrowolność. 
+W tej chwili korzystamy z [tej karuzeli](https://flickity.metafizzy.co/options.html), ale możesz wybrać cokolwiek innego. Chętnie też zobaczymy axiosa, ale tutaj też zostawiamy dobrowolność. 
 Pracujemy z sassem, co zobaczysz przeglądając ds.
+
 Chcielibyśmy, aby karuzela reagowała na resize, a także na wybór filtrów.  
  
- 
+
 To teraz wersja tldr: 
 1. Zrób forka naszego repo i ustaw jako prywatne. Jeśli możesz to wrzuć nam podgląd strony na github pages, heroku lub cokolwiek innego (nieobowiązkowe, ale fajnie będzie podejrzeć Twoją pracę :) ).
 2. Skorzystaj z naszego api, które zwróci Ci poszczególne elementy.
