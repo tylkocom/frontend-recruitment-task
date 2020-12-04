@@ -6,7 +6,9 @@ Na początku chcielibyśmy, abyś zrobił/a forka naszego repozytorium i ustawi�
 Sekcja składa się z kafelków z naszymi meblami, karuzeli i prostych filtrów. 
 
 
-Wszystko co jest potrzebne do wyświetlenia kafelek znajdziesz pobierając dane z przygotowanego przez nas api. Kodując korzystaj z naszego design systemu. Zależy nam na responsywnej stronie - część naszej sprzedaży odbywa się przy pomocy IE11, dlatego ważne jest dla nas, aby o tym pamiętać.
+Wszystko co jest potrzebne do wyświetlenia kafelek znajdziesz pobierając dane z przygotowanego przez nas api. Z api skomunikujesz się uderzając pod: `api/getJSON/`. Chcielibyśmy, abyś najpierw wyświetlił/a wszystkie szafki. Po kliknięciu w typy, chcielibyśmy, abyś spróbował/a wyfiltrować je po shelf_type. Klucz to: Type01 Plywood: `shelf_typ: 1`, Type01 Venner: `shelf_type: 1v`, Type02: `shelf_type": 2`
+
+Kodując korzystaj z naszego design systemu. Zależy nam na responsywnej stronie - część naszej sprzedaży odbywa się przy pomocy IE11, dlatego ważne jest dla nas, aby o tym pamiętać.
 
 W tej chwili korzystamy z [tej karuzeli](https://flickity.metafizzy.co/options.html), ale możesz wybrać cokolwiek innego. Chętnie też zobaczymy axiosa, ale tutaj też zostawiamy dobrowolność. 
 Pracujemy z sassem, co zobaczysz przeglądając ds.
