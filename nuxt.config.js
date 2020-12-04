@@ -35,6 +35,10 @@ export default {
     scss: ['./assets/scss/common-design-system/ds.scss']
   },
 
+  serverMiddleware: [
+    { path: "/api", handler: "~/api/rest.js" },
+  ],
+
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     '@nuxtjs/style-resources',
