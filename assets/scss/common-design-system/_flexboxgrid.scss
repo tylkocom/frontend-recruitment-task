@@ -1,3 +1,7 @@
+.flex {
+	display: flex;
+}
+
 .container-cstm-fluid {
   margin-right: auto;
   margin-left: auto;
@@ -21,11 +25,6 @@
     padding-right: 128px;
     padding-left: 128px;
   }
-}
-
-.container-cstm-fluid-box {
-  @extend .container-cstm-fluid;
-  box-sizing: border-box;
 }
 
 .row {

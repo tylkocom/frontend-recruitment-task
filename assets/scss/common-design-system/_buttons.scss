@@ -1,0 +1,45 @@
+@import "_typography.scss";
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    @extend .normal-14;
+    background-color: $ds-orange;
+    border: 1px solid $ds-orange;
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: $ds-white;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    text-align: center;
+    transition: background-color $basic-transition, border-color $basic-transition;
+
+    &:hover, &:focus, &:active {
+        background-color: $ds-orange-900;
+        border: 1px solid $ds-orange-900;
+        outline: none;
+    }
+
+    @include tablet-min {
+        font-size: 16px;
+    }
+
+    &--light {
+        color: $ds-offblack-600;
+        background-color: $ds-white;
+        border: 1px solid $ds-grey-700;
+        transition: background-color $basic-transition, border-color $basic-transition, color $basic-transition;
+
+        &:hover, &:focus, &:active {
+            color: $ds-white;
+        }
+    }
+}
+
+
+
+
