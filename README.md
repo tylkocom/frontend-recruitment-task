@@ -2,7 +2,7 @@
 
 [Pod tym linkiem](https://www.figma.com/file/4I9prCmnLdCNHaClurysFg/Zadanie-rekrutacyjne-Tylko?node-id=0%3A1) znajdziesz prostą sekcję z karuzelą do zakodowania. 
 
-Na początku chcielibyśmy, abyś zrobił/a forka naszego repozytorium i ustawił go jako prywatne - to bardzo dla nas ważne. Jeśli możesz to wrzuć nam podgląd strony na github pages, heroku lub cokolwiek innego - chętnie przeklikamy co stworzyłaś/eś. 
+Na początku chcielibyśmy, abyś zrobił clona naszego repozytorium i ustawił go jako prywatne - to bardzo dla nas ważne. Stwórz nowego brancha, na którym ustawisz pull requesta (ułatwi nam to sprawdzenie Twojej pracy).
 Sekcja składa się z kafelków z naszymi meblami, karuzeli i prostych filtrów. 
 
 
@@ -17,7 +17,7 @@ Chcielibyśmy, aby karuzela reagowała na resize, a także na wybór filtrów.
  
 
 To teraz wersja tldr: 
-1. Zrób forka naszego repo i ustaw jako prywatne. Jeśli możesz to wrzuć nam podgląd strony na github pages, heroku lub cokolwiek innego (nieobowiązkowe, ale fajnie będzie podejrzeć Twoją pracę :) ).
+1. Zrób clona naszego repo i ustaw jako prywatne. Stwórz nowego brancha, na którym ustawisz pull requesta (ułatwi nam to sprawdzenie Twojej pracy). 
 2. Skorzystaj z naszego api, które zwróci Ci poszczególne elementy.
 3. Wykorzystaj nasz ds. Jeśli cokolwiek będzie dla Ciebie niejasne, daj nam znać, chętnie wytłumaczymy i uzupełnimy dokumentację. 
 4. Zakoduj sekcję responsywnie, zgodnie z tym co znajdziesz w Figmie. 
@@ -32,8 +32,7 @@ Link do ds:
 [https://docs.google.com/document/d/19DMdkIsiqxsZTsZ5RxQNtPI1XpWCdAabrqdEbm4vl-g/edit](https://docs.google.com/document/d/19DMdkIsiqxsZTsZ5RxQNtPI1XpWCdAabrqdEbm4vl-g/edit)
 
 
-Obiecujemy, że zrobimy Ci code review i mamy nadzieję, że będzie to fajna przygoda. 
-Jeśli masz jakiekolwiek pytania do nas lub do naszych designerów to dawaj znać!
+Mamy nadzieję, że będzie to fajna przygoda. Jeśli masz jakiekolwiek pytania do nas lub do naszych designerów to dawaj znać!
 
 
 Powodzenia i dobrej zabawy!

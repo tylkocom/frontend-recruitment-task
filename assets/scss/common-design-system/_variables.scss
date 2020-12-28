@@ -5,7 +5,6 @@ $size-desktop-min:      1024px; // lg
 $size-desktop-air:      1440px; // xl
 $size-desktop-xl2:      1920px; // xl2
 
-$font-messina: 'MessinaSansWeb', Helvetica, Arial, sans-serif;
 $media-names: 'sm', 'md', 'lg', 'xl', 'xl2';
 $media-sizes: $size-mobile-middle, $size-tablet-min, $size-desktop-min,  $size-desktop-air, $size-desktop-xl2;
 // <---------------- END MEDIA QUERY ---------------->
@@ -63,7 +62,6 @@ $size-values: 0, 4, 8, 12, 16, 24, 32, 40, 48, 64, 80, 96, 128;
 
 
 // <---------------- TYPOGRAPHY ---------------->
-$font-messina: 'MessinaSansWeb';
 $font-sizes: 9, 10, 12, 14, 16, 20, 24, 28, 32, 46, 54, 72, 88;
 
 $font-weight-light: 300;
